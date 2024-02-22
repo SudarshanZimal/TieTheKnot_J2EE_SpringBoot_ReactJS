@@ -1,0 +1,5 @@
+package com.springcrud.crud.dao;
+
+public class VendorDao {
+
+}

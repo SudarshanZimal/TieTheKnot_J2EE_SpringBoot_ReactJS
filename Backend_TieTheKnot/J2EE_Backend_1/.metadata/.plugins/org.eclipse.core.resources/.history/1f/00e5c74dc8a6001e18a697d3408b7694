@@ -1,0 +1,23 @@
+package com.springcrud.crud.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Vendor {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private String name;
+	private String gstNumber;
+	private String facility;
+	private String cities;
+	private double charges;
+	private String pictureLinks;
+
+	// Getters, setters, constructors, and other methods as needed
+
+}

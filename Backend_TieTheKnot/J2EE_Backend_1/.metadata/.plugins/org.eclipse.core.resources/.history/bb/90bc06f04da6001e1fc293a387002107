@@ -1,0 +1,70 @@
+package com.springcrud.crud.model;
+
+public class Vendor {
+  private int id;
+  private String name;
+  private String gstNumber;
+  private String facility;
+  private int charges;
+  private String pictureLinks;
+  private String cities;
+@Override
+public String toString() {
+	return "Vendor [id=" + id + ", name=" + name + ", gstNumber=" + gstNumber + ", facility=" + facility + ", charges="
+			+ charges + ", pictureLinks=" + pictureLinks + ", cities=" + cities + "]";
+}
+public Vendor(int id, String name, String gstNumber, String facility, int charges, String pictureLinks, String cities) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.gstNumber = gstNumber;
+	this.facility = facility;
+	this.charges = charges;
+	this.pictureLinks = pictureLinks;
+	this.cities = cities;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getGstNumber() {
+	return gstNumber;
+}
+public void setGstNumber(String gstNumber) {
+	this.gstNumber = gstNumber;
+}
+public String getFacility() {
+	return facility;
+}
+public void setFacility(String facility) {
+	this.facility = facility;
+}
+public int getCharges() {
+	return charges;
+}
+public void setCharges(int charges) {
+	this.charges = charges;
+}
+public String getPictureLinks() {
+	return pictureLinks;
+}
+public void setPictureLinks(String pictureLinks) {
+	this.pictureLinks = pictureLinks;
+}
+public String getCities() {
+	return cities;
+}
+public void setCities(String cities) {
+	this.cities = cities;
+}
+  
+  
+}
